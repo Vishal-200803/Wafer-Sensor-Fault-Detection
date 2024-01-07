@@ -11,8 +11,8 @@ from src.constant import *
 from src.utils.main_utils import MainUtils
 
 from dataclasses import dataclass
-        
-        
+
+#__
 @dataclass
 class PredictionPipelineConfig:
     prediction_output_dirname: str = "predictions"
